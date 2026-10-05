@@ -52,7 +52,7 @@
     var li = document.createElement("li");
     li.className = "card";
     li.innerHTML =
-      '<figure class="card__img"><img src="assets/img/tablet-' + f.id + '.jpg" alt="Tablet: Medusa bust with the glyph ' + f.glyph + ' across her eyes." loading="lazy" width="700" height="1244">' +
+      '<figure class="card__img"><img src="assets/img/panel-' + f.id + '.jpg" alt="Surviving part of portrait ' + f.glyph + ' on the sleeve back: a Medusa bust with a numeral display across her eyes, partly lost." loading="lazy" width="500" height="500">' +
       '<span class="glyph glyph--tag">' + f.glyph + "</span></figure>" +
       '<div class="card__body">' +
         '<p class="cat">PCA‑0711‑' + String(i + 1).padStart(2, "0") + "</p>" +
